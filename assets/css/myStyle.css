@@ -2,15 +2,15 @@
     color: white;
 }
 .bg-fb-1 {
-    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-1.jpg) fixed center center;
+    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-1.JPG) fixed center center;
     background-size: cover;
 }
 .bg-fb-2 {
-    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-2.jpg) fixed center center;
+    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-2.JPG) fixed center center;
     background-size: cover;
 }
 .bg-fb-3 {
-    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-3.jpg) fixed center center;
+    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-3.JPG) fixed center center;
     background-size: cover;
 }
 .bg-fb-4 {
@@ -18,10 +18,10 @@
     background-size: cover;
 }
 .bg-fb-5 {
-    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-5.jpg) fixed center center;
+    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-5.JPG) fixed center center;
     background-size: cover;
 }
 .bg-fb-6 {
-    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-6.jpg) fixed center center;
+    background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url(../img/bg-fb-6.JPG) fixed center center;
     background-size: cover;
 }
