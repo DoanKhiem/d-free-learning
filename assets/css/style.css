@@ -387,7 +387,9 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  /* background: #37517e; */
+  background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url("../img/all-us.jpg") center center;
+  background-size: cover;
 }
 
 #hero .container {
@@ -887,7 +889,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.5), rgba(40, 58, 90, 0.5)), url("../img/cta-bg.JPG") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
