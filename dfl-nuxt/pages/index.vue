@@ -5,1100 +5,1029 @@
 <template>
     <div>
         <!-- ======= Header ======= -->
-    <Header />
-    <!-- End Header -->
+        <Header />
+        <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <Hero />
-    <!-- End Hero -->
+        <!-- ======= Hero Section ======= -->
+        <Hero />
+        <!-- End Hero -->
 
-    <main id="main">
-        <!-- ======= Clients Section ======= -->
-        <!-- <section id="clients" class="clients section-bg">
-        <div class="container">
-          <div class="row" data-aos="zoom-in">
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-1.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+        <main id="main">
 
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-2.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-3.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-4.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-5.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-6.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </section> -->
-        <!-- End Cliens Section -->
-
-        <!-- ======= About Us Section ======= -->
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Về Chúng Mình</h2>
-                </div>
-
-                <div class="row content">
-                    <div class="col-lg-6">
-                        <p>
-                            D Free Learning - Lớp học dịu dàng (DFL) là một dự án xã hội,
-                            được thành lập với mong muốn thúc đẩy xã hội học tập, người biết
-                            nhiều chia sẻ kiến thức cho người biết ít, người biết ít chia sẻ
-                            cho người chưa biết. Ở đây, chúng mình lan tỏa sự sẻ chia tri
-                            thức, tạo động lực học tập tới các cậu độ tuổi từ 3 - 99.
-                        </p>
-
-                        <!-- <ul>
-                <li>
-                  <i class="ri-check-double-line"></i> Được trang bị kiến thức và kỹ năng cần thiết để trở thành một leader/ Supporter giỏi.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> Được làm việc với thành viên có kinh nghiệm và năng động, nhiệt huyết.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> Có cơ hội học hỏi và giao lưu với mọi người.
-                </li>
-              </ul> -->
+            <!-- ======= About Us Section ======= -->
+            <section id="about" class="about">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Về Chúng Mình</h2>
                     </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0">
-                        <p>
-                            Chúng mình là một dự án xã hội được thành lập nhằm tạo ra một
-                            nơi mà ở đó, mọi người có thể học tập, chia sẻ những kiến thức
-                            mới. Tại đây, chúng mình thường tổ chức các khóa học kéo dài
-                            trong 6 tháng. Tính tới thời hiện tại, dự án đã tổ chức thành
-                            công 7 khoá với sự đón nhận tích cực từ các bạn học viên rồi
-                            đấy!
-                        </p>
-                        <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+
+                    <div class="row content">
+                        <div class="col-lg-6">
+                            <p>
+                                D Free Learning - Lớp học dịu dàng (DFL) là một dự án xã hội,
+                                được thành lập với mong muốn thúc đẩy xã hội học tập, người biết
+                                nhiều chia sẻ kiến thức cho người biết ít, người biết ít chia sẻ
+                                cho người chưa biết. Ở đây, chúng mình lan tỏa sự sẻ chia tri
+                                thức, tạo động lực học tập tới các cậu độ tuổi từ 3 - 99.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0">
+                            <p>
+                                Chúng mình là một dự án xã hội được thành lập nhằm tạo ra một
+                                nơi mà ở đó, mọi người có thể học tập, chia sẻ những kiến thức
+                                mới. Tại đây, chúng mình thường tổ chức các khóa học kéo dài
+                                trong 6 tháng. Tính tới thời hiện tại, dự án đã tổ chức thành
+                                công 7 khoá với sự đón nhận tích cực từ các bạn học viên rồi
+                                đấy!
+                            </p>
+                            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- End About Us Section -->
+            </section>
+            <!-- End About Us Section -->
 
-        <!-- ======= Why Us Section ======= -->
-        <section id="why-us" class="why-us section-bg">
-            <div class="container-fluid" data-aos="fade-up">
-                <div class="row">
-                    <div
-                        class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
-                        <div class="content">
+            <!-- ======= Why Us Section ======= -->
+            <section id="why-us" class="why-us section-bg">
+                <div class="container-fluid" data-aos="fade-up">
+                    <div class="row">
+                        <div
+                            class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
+                            <div class="content">
+                                <h3>
+                                    Những thông tin cơ bản về
+                                    <strong>một khóa tại D Free Learning</strong>
+                                </h3>
+                                <p>Về cơ bản một khóa học tại DFL sẽ gồm 3 giai đoạn:</p>
+                            </div>
+
+                            <div class="accordion-list">
+                                <ul>
+                                    <li>
+                                        <a data-bs-toggle="collapse" class="collapse"
+                                            data-bs-target="#accordion-list-1"><span>01</span> Tìm
+                                            kiếm các leaders/supporters và định
+                                            hình tên/số lượng câu lạc bộ của một khóa<i
+                                                class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="accordion-list-1" class="collapse show"
+                                            data-bs-parent=".accordion-list">
+                                            <p>
+                                                Với tính chất tự nguyện và chia sẻ từ tâm nên tùy theo
+                                                khả năng sắp xếp và đồng hành của các anh, chị lead.sup
+                                                mà mỗi khóa tại DFL các câu lạc bộ của chúng mình sẽ có
+                                                sự thay đổi. Một số anh chị sẽ dẫn dắt CLB từ khóa này
+                                                sang khóa khác. Cũng có CLB là một anh chị/bạn hoàn toàn
+                                                mới đến và chia sẻ.
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
+                                            class="collapsed"><span>02</span>
+                                            Truyền thông và tuyển học viên
+                                            <i class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                                            <p>
+                                                Đây hẳn là thời điểm được mọi người quan tâm và chờ đợi
+                                                nhiều nhất. Chúng mình sẽ mở đơn tuyển học viên đồng
+                                                loạt cho rất nhiều CLB cùng một lúc và đơn sẽ được mở
+                                                trong khoảng 1 tuần. Tuy nhiên do mong muốn học tập/trải
+                                                nghiệm của cộng đồng ngày càng lớn, có những câu lạc bộ
+                                                chúng mình sẽ đóng đơn sớm hơn dự kiến để đảm bảo cho
+                                                các hoạt động sau đó.
+                                                <br />
+                                                Để trở thành học viên của DFL, cậu sẽ cần trải qua vòng
+                                                lọc đơn và vòng phỏng vấn. Sau hai vòng này, những bạn
+                                                phù hợp với CLB tại khóa đó sẽ trở thành học viên chính
+                                                thức của CLB.
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
+                                            class="collapsed"><span>03</span> Tham
+                                            gia một khóa tại DFL
+                                            <i class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                                            <p>
+                                                Mỗi khóa tại DFL sẽ kéo dài trong khoảng 3 tháng, cũng
+                                                có CLB sẽ kết thúc sớm hơn hoặc muộn hơn. Và sau khi
+                                                chốt danh sách học viên các CLB chúng mình sẽ không nhận
+                                                thêm học viên ngang chừng.
+                                                <br />
+                                                Thời gian này bên cạnh việc chia sẻ các hoạt động tại
+                                                các CLB, DFL thường tổ chức thêm các cuộc thi dành cho
+                                                cộng đồng hoặc các chia sẻ khác về sự dịu dàng, sự tử
+                                                tế,...
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+                            style="background-image: url('/img/us.png')" data-aos="zoom-in" data-aos-delay="150">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Why Us Section -->
+
+            <!-- ======= Skills Section ======= -->
+            <section id="skills" class="skills">
+                <div class="container" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                            <img src="assets/img/skills.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                             <h3>
-                                Những thông tin cơ bản về
-                                <strong>một khóa tại D Free Learning</strong>
+                                TẤT TẦN TẬT VỀ LỚP HỌC DỊU DÀNG.
                             </h3>
-                            <p>Về cơ bản một khóa học tại DFL sẽ gồm 3 giai đoạn:</p>
-                        </div>
+                            <p class="fst-italic">
+                                Tính tới thời hiện tại, dự án đã tổ chức thành công 7 khoá với sự đón nhận tích cực từ
+                                các
+                                bạn học viên
+                                rồi đấy!
+                            </p>
 
-                        <div class="accordion-list">
-                            <ul>
-                                <li>
-                                    <a data-bs-toggle="collapse" class="collapse"
-                                        data-bs-target="#accordion-list-1"><span>01</span> Tìm
-                                        kiếm các leaders/supporters và định
-                                        hình tên/số lượng câu lạc bộ của một khóa<i
-                                            class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                                        <p>
-                                            Với tính chất tự nguyện và chia sẻ từ tâm nên tùy theo
-                                            khả năng sắp xếp và đồng hành của các anh, chị lead.sup
-                                            mà mỗi khóa tại DFL các câu lạc bộ của chúng mình sẽ có
-                                            sự thay đổi. Một số anh chị sẽ dẫn dắt CLB từ khóa này
-                                            sang khóa khác. Cũng có CLB là một anh chị/bạn hoàn toàn
-                                            mới đến và chia sẻ.
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                        class="collapsed"><span>02</span>
-                                        Truyền thông và tuyển học viên
-                                        <i class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                                        <p>
-                                            Đây hẳn là thời điểm được mọi người quan tâm và chờ đợi
-                                            nhiều nhất. Chúng mình sẽ mở đơn tuyển học viên đồng
-                                            loạt cho rất nhiều CLB cùng một lúc và đơn sẽ được mở
-                                            trong khoảng 1 tuần. Tuy nhiên do mong muốn học tập/trải
-                                            nghiệm của cộng đồng ngày càng lớn, có những câu lạc bộ
-                                            chúng mình sẽ đóng đơn sớm hơn dự kiến để đảm bảo cho
-                                            các hoạt động sau đó.
-                                            <br />
-                                            Để trở thành học viên của DFL, cậu sẽ cần trải qua vòng
-                                            lọc đơn và vòng phỏng vấn. Sau hai vòng này, những bạn
-                                            phù hợp với CLB tại khóa đó sẽ trở thành học viên chính
-                                            thức của CLB.
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                        class="collapsed"><span>03</span> Tham
-                                        gia một khóa tại DFL
-                                        <i class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                                        <p>
-                                            Mỗi khóa tại DFL sẽ kéo dài trong khoảng 3 tháng, cũng
-                                            có CLB sẽ kết thúc sớm hơn hoặc muộn hơn. Và sau khi
-                                            chốt danh sách học viên các CLB chúng mình sẽ không nhận
-                                            thêm học viên ngang chừng.
-                                            <br />
-                                            Thời gian này bên cạnh việc chia sẻ các hoạt động tại
-                                            các CLB, DFL thường tổ chức thêm các cuộc thi dành cho
-                                            cộng đồng hoặc các chia sẻ khác về sự dịu dàng, sự tử
-                                            tế,...
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-                        style="background-image: url('/img/us.png')" data-aos="zoom-in" data-aos-delay="150">
-                        &nbsp;
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Why Us Section -->
-
-        <!-- ======= Skills Section ======= -->
-        <section id="skills" class="skills">
-            <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="assets/img/skills.png" class="img-fluid" alt="" />
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-                        <h3>
-                            TẤT TẦN TẬT VỀ LỚP HỌC DỊU DÀNG.
-                        </h3>
-                        <p class="fst-italic">
-                            Tính tới thời hiện tại, dự án đã tổ chức thành công 7 khoá với sự đón nhận tích cực từ các
-                            bạn học viên
-                            rồi đấy!
-                        </p>
-
-                        <div class="skills-content">
-                            <div class="progress">
-                                <span class="skill">Leader/Supporter giảng dạy tới cuối khóa <i
-                                        class="val">100%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div class="progress">
-                                <span class="skill">Học viên theo học tới cuối khóa <i class="val">95%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                        aria-valuemax="100">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <span class="skill">Leader/Supporter giảng dạy tới cuối khóa <i
+                                            class="val">100%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="progress">
-                                <span class="skill">Leader/Supporter đồng ý dạy tiếp các khóa học sau <i
-                                        class="val">65%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                                        aria-valuemax="100">
+                                <div class="progress">
+                                    <span class="skill">Học viên theo học tới cuối khóa <i class="val">95%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                                            aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="progress">
-                                <span class="skill">Học viên tiếp tục đăng ký học các khóa sau <i
-                                        class="val">75%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                        aria-valuemax="100">
+                                <div class="progress">
+                                    <span class="skill">Leader/Supporter đồng ý dạy tiếp các khóa học sau <i
+                                            class="val">65%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                            aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="progress">
+                                    <span class="skill">Học viên tiếp tục đăng ký học các khóa sau <i
+                                            class="val">75%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                            aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- End Skills Section -->
+            </section>
+            <!-- End Skills Section -->
 
-        <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Lợi ích</h2>
-                    <p>
-                        Cuộc sống của mỗi chúng ta là một hành trình dài với những chặng bay chở đầy những ước mơ và hy
-                        vọng của
-                        chúng ta về phía trước. Thật tuyệt khi chúng ta có thể theo đuổi khát khao của mình và không
-                        những thể
-                        chuyến bay của chúng ta còn có thể chắp thêm cho mong ước của rất nhiều người.
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="box">
-                            <h3><i class='bx bxs-hand-right'></i> Leader/Supporter</h3>
-                            <!-- <h4><sup>$</sup>0<span>per month</span></h4> -->
-                            <ul>
-                                <li><i class="bx bx-check"></i>Phát triển kỹ năng chuyên môn và nâng cao kinh nghiệm của
-                                    mình.</li>
-                                <li><i class="bx bx-check"></i>Mang tới tác động tích cực đến cuộc sống của và cộng
-                                    đồng.</li>
-                                <li><i class="bx bx-check"></i>Kết nối với cộng đồng</li>
-                                <li><i class="bx bx-check"></i>Cải thiện kỹ năng xã hội và văn hóa</li>
-                                <!-- <li class="na"><i class="bx bx-x"></i>Cải thiện kỹ năng xã hội và văn hóa</li> -->
-                                <li class=""><i class="bx bx-star"></i>Tham gia trở thành Leader và Supporter tại DFL,
-                                    bạn sẽ không
-                                    chỉ là một phần của một dự án giáo dục, mà còn là một phần của một cộng đồng đam mê,
-                                    cống hiến và
-                                    không ngừng phát triển!</li>
-                            </ul>
-                            <a href="tel:0971852712" class="buy-btn">Tham gia ngay</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                        <div class="box featured">
-                            <h3><i class='bx bxs-hand-right'></i> Học Viên</h3>
-                            <!-- <h4><sup>$</sup>29<span>per month</span></h4> -->
-                            <ul>
-                                <li>
-                                    <i class="bx bx-check"></i> Mở lòng, không còn ngại chia sẻ những suy nghĩ, câu
-                                    chuyện cá nhân.
-                                </li>
-                                <li><i class="bx bx-check"></i> Mở rộng các mối quan hệ, gặp gỡ và quen biết được nhiều
-                                    anh chị, các bạn
-                                    vô cùng tài giỏi và dễ thương.</li>
-                                <li>
-                                    <i class="bx bx-check"></i> Được tham gia rất nhiều các lớp học đa dạng và chất
-                                    lượng mà không cần lăn
-                                    tăn quá nhiều về "học phí.
-                                </li>
-                                <li>
-                                    <i class="bx bx-star"></i> Tham gia các CLB xã hội là cách tuyệt vời để mở rộng mối
-                                    quan hệ của các
-                                    cậu. Tại đây, các cậu có thể gặp gỡ những người bạn mới có cùng sở thích, đam mê.
-                                    Những mối quan hệ
-                                    này sẽ giúp các cậu có thêm sự hỗ trợ, động viên trong học tập và cuộc sống.
-                                </li>
-                            </ul>
-                            <a href="tel:0971852712" class="buy-btn">Tham gia ngay</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                        <div class="box">
-                            <h3><i class='bx bxs-hand-right'></i> Thành Viên</h3>
-                            <!-- <h4><sup>$</sup>49<span>per month</span></h4> -->
-                            <ul>
-                                <li>
-                                    <i class="bx bx-check"></i> Được tham gia các câu lạc bộ miễn phí tại các khóa học.
-                                </li>
-                                <li><i class="bx bx-check"></i> Được training các kỹ năng như teamwork, debate, thuyết
-                                    trình, v.v.</li>
-                                <li>
-                                    <i class="bx bx-check"></i> Được tham gia các buổi họp mặt ăn uống cùng các thành
-                                    viên của Lớp Học Dịu
-                                    Dàng với rất nhiều các hoạt động giao lưu, kết nối thành viên.
-                                </li>
-                                <li>
-                                    <i class="bx bx-star"></i> Điều đặc biệt là “DFL không giới hạn vị trí địa lý khi
-                                    đăng ký trở thành
-                                    thành viên” Các thành viên của Lớp Học Dịu Dàng hiện nay đến từ ba miền Tổ Quốc và
-                                    mang theo những nét
-                                    đẹp lịch sử, văn hóa đặc trưng của mỗi địa phương. Vì vậy Vương quốc DFL luôn có thể
-                                    kết nối với nhau
-                                    dù bạn ở đâu đi nữa!
-                                </li>
-                            </ul>
-                            <a href="tel:0971852712" class="buy-btn">Tham gia ngay</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Pricing Section -->
-
-        <!-- ======= Cta Section ======= -->
-        <section id="cta" class="cta">
-            <div class="container" data-aos="zoom-in">
-                <div class="row">
-                    <div class="col-lg-9 text-center text-lg-start">
-                        <h3>Đồng Hành Cùng Chúng Mình</h3>
+            <!-- ======= Pricing Section ======= -->
+            <section id="pricing" class="pricing section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Lợi ích</h2>
                         <p>
-                            “Rồi em sẽ thấy rằng, sau những chuyến bay, mình lại có cái nhìn tròn đầy hơn về cuộc sống,
-                            thấy học được
-                            vài điều mới, thấy tâm mình tròn đầy hơn. Và em thêm yêu nơi em sống, yêu người xung quanh
-                            em, yêu đời và
-                            sống vì đời nhiều hơn trước”
+                            Cuộc sống của mỗi chúng ta là một hành trình dài với những chặng bay chở đầy những ước mơ và
+                            hy
+                            vọng của
+                            chúng ta về phía trước. Thật tuyệt khi chúng ta có thể theo đuổi khát khao của mình và không
+                            những thể
+                            chuyến bay của chúng ta còn có thể chắp thêm cho mong ước của rất nhiều người.
                         </p>
                     </div>
-                    <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle" href="tel:0971852712">Liên hệ chúng mình</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Cta Section -->
 
-
-
-        <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Hoạt động</h2>
-                    <p>
-                        Bên cạnh việc tổ chức việc dạy học, dự án còn thường xuyên tổ chức các hoạt động xã hội đa dạng
-                        khác nhau,
-                        cả hoạt động online và offline.
-                    </p>
-                </div>
-
-                <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">Tất cả</li>
-                    <li data-filter=".filter-app">Lớp học</li>
-                    <li data-filter=".filter-card">Talkshow</li>
-                    <li data-filter=".filter-web">Tình nguyện</li>
-                </ul>
-
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-1.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Bước chạy yêu thương</h4>
-                            <p>Tình nguyện</p>
-                            <a href="assets/img/portfolio/action-1.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Bước chạy yêu thương"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-9.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Lớp học lập trình</h4>
-                            <p>Lớp học</p>
-                            <a href="assets/img/portfolio/action-9.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Lớp học lập trình"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-2.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Kết nối yêu thương</h4>
-                            <p>Talkshow</p>
-                            <a href="assets/img/portfolio/action-2.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Kết nối yêu thương"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-3.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Bạn kể mình nghe</h4>
-                            <p>Talkshow</p>
-                            <a href="assets/img/portfolio/action-3.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Bạn kể mình nghe"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-6.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Đọc nhiều để làm gì?</h4>
-                            <p>Talkshow</p>
-                            <a href="assets/img/portfolio/action-6.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Đọc nhiều để làm gì?"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-4.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Lớp học khóa 7</h4>
-                            <p>Lớp học</p>
-                            <a href="assets/img/portfolio/action-4.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Lớp học khóa 7"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-5.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Tuyển học viên khóa 6</h4>
-                            <p>Lớp học</p>
-                            <a href="assets/img/portfolio/action-5.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Tuyển học viên khóa 6"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-8.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Lớp học Xín Mần</h4>
-                            <p>Tình nguyện</p>
-                            <a href="assets/img/portfolio/action-8.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Lớp học Xín Mần"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img">
-                            <img src="assets/img/portfolio/action-7.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="portfolio-info">
-                            <h4>Lớp học hội họa</h4>
-                            <p>Lớp học</p>
-                            <a href="assets/img/portfolio/action-7.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Lớp học hội họa"><i
-                                    class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Portfolio Section -->
-
-        <!-- ======= Team Section ======= -->
-        <section id="team" class="team section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Thành Viên</h2>
-                    <p>
-                        Để tổ chức những hoạt động đầy bổ ích và thú vị, không thể không nhắc đến “tứ trụ” của LHDD. Đó
-                        là 4 ban:
-                        Truyền thông, Sự kiện, Nhân sự và Đối Ngoại.
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic">
-                                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
-                            </div>
-                            <div class="member-info">
-                                <h4>Hoàng Quý Bình</h4>
-                                <span>Founder Dự Án</span>
-                                <p>
-                                    "Thôi cố gắng nhé các bạn. Vượt qua hết những khó khăn đi lại, các bạn sẽ đến được
-                                    thác Mây"
-                                </p>
-                                <div class="social">
-                                    <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
-                                    <a href="https://www.facebook.com/hoangquy.binh" target="_blank"><i
-                                            class="ri-facebook-fill"></i></a>
-                                    <!-- <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
-                                </div>
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                                <h3><i class='bx bxs-hand-right'></i> Leader/Supporter</h3>
+                                <!-- <h4><sup>$</sup>0<span>per month</span></h4> -->
+                                <ul>
+                                    <li><i class="bx bx-check"></i>Phát triển kỹ năng chuyên môn và nâng cao kinh nghiệm
+                                        của
+                                        mình.</li>
+                                    <li><i class="bx bx-check"></i>Mang tới tác động tích cực đến cuộc sống của và cộng
+                                        đồng.</li>
+                                    <li><i class="bx bx-check"></i>Kết nối với cộng đồng</li>
+                                    <li><i class="bx bx-check"></i>Cải thiện kỹ năng xã hội và văn hóa</li>
+                                    <!-- <li class="na"><i class="bx bx-x"></i>Cải thiện kỹ năng xã hội và văn hóa</li> -->
+                                    <li class=""><i class="bx bx-star"></i>Tham gia trở thành Leader và Supporter tại
+                                        DFL,
+                                        bạn sẽ không
+                                        chỉ là một phần của một dự án giáo dục, mà còn là một phần của một cộng đồng đam
+                                        mê,
+                                        cống hiến và
+                                        không ngừng phát triển!</li>
+                                </ul>
+                                <a href="tel:0971852712" class="buy-btn">Tham gia ngay</a>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic">
-                                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
-                            </div>
-                            <div class="member-info">
-                                <h4>Lương Thị Hồng</h4>
-                                <span>Leader Dự Án</span>
-                                <p>
-                                    "Sinh ra đẹp đẽ là trời cho nhưng sống cho đẹp đẽ là bản lĩnh của mỗi người"
-                                </p>
-                                <div class="social">
-                                    <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
-                                    <a href="https://www.facebook.com/luonghongvtc" target="_blank"><i
-                                            class="ri-facebook-fill"></i></a>
-                                    <!-- <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
-                                </div>
+                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                            <div class="box featured">
+                                <h3><i class='bx bxs-hand-right'></i> Học Viên</h3>
+                                <!-- <h4><sup>$</sup>29<span>per month</span></h4> -->
+                                <ul>
+                                    <li>
+                                        <i class="bx bx-check"></i> Mở lòng, không còn ngại chia sẻ những suy nghĩ, câu
+                                        chuyện cá nhân.
+                                    </li>
+                                    <li><i class="bx bx-check"></i> Mở rộng các mối quan hệ, gặp gỡ và quen biết được
+                                        nhiều
+                                        anh chị, các bạn
+                                        vô cùng tài giỏi và dễ thương.</li>
+                                    <li>
+                                        <i class="bx bx-check"></i> Được tham gia rất nhiều các lớp học đa dạng và chất
+                                        lượng mà không cần lăn
+                                        tăn quá nhiều về "học phí.
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-star"></i> Tham gia các CLB xã hội là cách tuyệt vời để mở rộng
+                                        mối
+                                        quan hệ của các
+                                        cậu. Tại đây, các cậu có thể gặp gỡ những người bạn mới có cùng sở thích, đam
+                                        mê.
+                                        Những mối quan hệ
+                                        này sẽ giúp các cậu có thêm sự hỗ trợ, động viên trong học tập và cuộc sống.
+                                    </li>
+                                </ul>
+                                <a href="tel:0971852712" class="buy-btn">Tham gia ngay</a>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic">
-                                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
-                            </div>
-                            <div class="member-info">
-                                <h4>Lê Phan Kỳ Thư</h4>
-                                <span>Trưởng Ban Truyền Thông</span>
-                                <p>
-                                </p>
-                                <div class="social">
-                                    <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
-                                    <a href="https://www.facebook.com/nina.le.106" target="_blank"><i
-                                            class="ri-facebook-fill"></i></a>
-                                    <!-- <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic">
-                                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
-                            </div>
-                            <div class="member-info">
-                                <h4>Phạm Tuấn Hải</h4>
-                                <span>Trưởng Ban Sự Kiện</span>
-                                <p></p>
-                                <div class="social">
-                                    <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
-                                    <a href="https://www.facebook.com/profile.php?id=100088037397894" target="_blank"><i
-                                            class="ri-facebook-fill"></i></a>
-                                    <!-- <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic">
-                                <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="" />
-                            </div>
-                            <div class="member-info">
-                                <h4>Phạm Thị Ngoan</h4>
-                                <span>Trưởng Ban Nhân Sự</span>
-                                <p>
-                                    Miệng là của họ, đời là của mình đừng vì một câu nói của họ mà làm mình mất vui
-                                </p>
-                                <div class="social">
-                                    <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
-                                    <a href="https://www.facebook.com/profile.php?id=100049287919473" target="_blank"><i
-                                            class="ri-facebook-fill"></i></a>
-                                    <!-- <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic">
-                                <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" />
-                            </div>
-                            <div class="member-info">
-                                <h4>Phan Diễm Quỳnh</h4>
-                                <span>Trưởng Ban Đối Ngoại</span>
-                                <p>
-                                    Youngz girl see zi 🖤
-                                </p>
-                                <div class="social">
-                                    <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
-                                    <a href="https://www.facebook.com/profile.php?id=100075951311369" target="_blank"><i
-                                            class="ri-facebook-fill"></i></a>
-                                    <!-- <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
-                                </div>
+                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                            <div class="box">
+                                <h3><i class='bx bxs-hand-right'></i> Thành Viên</h3>
+                                <!-- <h4><sup>$</sup>49<span>per month</span></h4> -->
+                                <ul>
+                                    <li>
+                                        <i class="bx bx-check"></i> Được tham gia các câu lạc bộ miễn phí tại các khóa
+                                        học.
+                                    </li>
+                                    <li><i class="bx bx-check"></i> Được training các kỹ năng như teamwork, debate,
+                                        thuyết
+                                        trình, v.v.</li>
+                                    <li>
+                                        <i class="bx bx-check"></i> Được tham gia các buổi họp mặt ăn uống cùng các
+                                        thành
+                                        viên của Lớp Học Dịu
+                                        Dàng với rất nhiều các hoạt động giao lưu, kết nối thành viên.
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-star"></i> Điều đặc biệt là “DFL không giới hạn vị trí địa lý
+                                        khi
+                                        đăng ký trở thành
+                                        thành viên” Các thành viên của Lớp Học Dịu Dàng hiện nay đến từ ba miền Tổ Quốc
+                                        và
+                                        mang theo những nét
+                                        đẹp lịch sử, văn hóa đặc trưng của mỗi địa phương. Vì vậy Vương quốc DFL luôn có
+                                        thể
+                                        kết nối với nhau
+                                        dù bạn ở đâu đi nữa!
+                                    </li>
+                                </ul>
+                                <a href="tel:0971852712" class="buy-btn">Tham gia ngay</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- End Team Section -->
+            </section>
+            <!-- End Pricing Section -->
 
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services ">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Feedback</h2>
-                    <p>
-                        Chúng mình đã đồng hành với nhau được một thời gian khá dài rồi.
-                        LHDD xin được chia sẻ một số lời gửi gắm yêu thương từ các học viên CLB. Đây đều là tình cảm của
-                        chúng mình
-                        dành cho nhau trong thời gian gắn bó vừa qua.
-                    </p>
+            <!-- ======= Cta Section ======= -->
+            <section id="cta" class="cta">
+                <div class="container" data-aos="zoom-in">
+                    <div class="row">
+                        <div class="col-lg-9 text-center text-lg-start">
+                            <h3>Đồng Hành Cùng Chúng Mình</h3>
+                            <p>
+                                “Rồi em sẽ thấy rằng, sau những chuyến bay, mình lại có cái nhìn tròn đầy hơn về cuộc
+                                sống,
+                                thấy học được
+                                vài điều mới, thấy tâm mình tròn đầy hơn. Và em thêm yêu nơi em sống, yêu người xung
+                                quanh
+                                em, yêu đời và
+                                sống vì đời nhiều hơn trước”
+                            </p>
+                        </div>
+                        <div class="col-lg-3 cta-btn-container text-center">
+                            <a class="cta-btn align-middle" href="tel:0971852712">Liên hệ chúng mình</a>
+                        </div>
+                    </div>
                 </div>
+            </section>
+            <!-- End Cta Section -->
 
-                <div class="row">
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch bg-fb" data-aos="zoom-in"
+
+
+            <!-- ======= Portfolio Section ======= -->
+            <section id="portfolio" class="portfolio">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Hoạt động</h2>
+                        <p>
+                            Bên cạnh việc tổ chức việc dạy học, dự án còn thường xuyên tổ chức các hoạt động xã hội đa
+                            dạng
+                            khác nhau,
+                            cả hoạt động online và offline.
+                        </p>
+                    </div>
+
+                    <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up"
                         data-aos-delay="100">
-                        <div class="icon-box bg-fb-1">
-                            <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4> -->
-                            <p>
-                                "Câu chuyện về lớp guitar thì mình đã chia sẻ trên group rồi. Mình muốn gửi lời cảm ơn
-                                đến DFL vì đã mở
-                                những lớp học vô cùng thú vị như thế này. Mình quen được nhiều người, học thêm được kĩ
-                                năng rất hay,
-                                thêm niềm vui, lớp học hoàn toàn miễn phí nhưng cực kỳ chất lượng. Mình hi vọng một ngày
-                                có thể trở
-                                thành leader của 1 lớp để lan tỏa tri thức đến cộng đồng ❤️. Và nếu như một ngày mình đủ
-                                khả năng để trở
-                                thành leader lớp guitar thì còn tuyệt vời hơn nữa hihi."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 bg-fb" data-aos="zoom-in"
-                        data-aos-delay="200">
-                        <div class="icon-box bg-fb-3">
-                            <!-- <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspici</a></h4> -->
-                            <p>
-                                "Cô giáo và các bạn trong lớp đều hòa đồng vui vẻ. Các giờ học không hề nhàm chán, cô
-                                giáo luôn thay đổi
-                                giáo trình phù hợp với lớp. Mỗi bạn đều là một cây hài chưa được biết đến. Mình rất vui
-                                và biết ơn với
-                                quãng thời gian đồng hành cùng lớp và cô giáo."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 bg-fb" data-aos="zoom-in"
-                        data-aos-delay="300">
-                        <div class="icon-box bg-fb-2">
-                            <!-- <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4> -->
-                            <p>
-                                "Một quãng thời gian nhiều ý nghĩa, được trau dồi, nâng cao kĩ năng tiếng anh, được nhận
-                                sự giúp đỡ tận
-                                tình từ Leader, Supporter cũng như các bạn học viên trong lớp. Chỉ biết nói cảm ơn mọi
-                                người cũng như
-                                DFL đã xây dựng một môi trường vô cùng hữu ích."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10 bg-fb" data-aos="zoom-in"
-                        data-aos-delay="400">
-                        <div class="icon-box bg-fb-4">
-                            <!-- <div class="icon"><i class="bx bx-layer"></i></div>
-                <h4><a href="">Nemo Enim</a></h4> -->
-                            <p>
-                                "Khi vào lớp uku em là em út trong lớp nên được anh chị rấc là cưng chiều. Lớp uku đem
-                                lại cho em nhìu
-                                niềm vui. Có những lúc e nản cũng lười khum muốn trả bài nhưng mà anh chị động viên và
-                                dạy em nhiều để
-                                em được như bây giờ. Em cảm ơn anh chị rất nhiều."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10 bg-fb" data-aos="zoom-in"
-                        data-aos-delay="500">
-                        <div class="icon-box bg-fb-5">
-                            <!-- <div class="icon"><i class="bx bx-layer"></i></div>
-                <h4><a href="">Nemo Enim</a></h4> -->
-                            <p>
-                                "Về lớp Trung, hay cả lớp Excel, lúc đầu mình đều nghe nói là chị Mai dạy hơi nghiêm với
-                                nghe chừng hơi
-                                khó, hoặc chú Kiên cũng thế, nhưng tham gia lớp xong thấy quá trời luôn ạ. Chị Mai vui
-                                vẻ lắm, đi học
-                                lúc nào chị cũng bảo là chị thích đi dạy các em, nói chuyện với các em vui lại còn thấy
-                                trẻ ra, em thấy
-                                chị cũng chia sẻ nhiều nữa, học rất thoải mái luôn ý."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10 bg-fb" data-aos="zoom-in"
-                        data-aos-delay="600">
-                        <div class="icon-box bg-fb-6">
-                            <!-- <div class="icon"><i class="bx bx-layer"></i></div>
-                <h4><a href="">Nemo Enim</a></h4> -->
-                            <p>
-                                "Chú Kiên cũng vậy, chú chẳng khó tính, hay nghiêm khắc quá :v chú dạy excel kiêm cả
-                                kiến thức xã hội và
-                                cuộc sống xung quanh, chú còn định hướng nghề nghiệp, nói chung là chú như từ điển wiki
-                                á, mỗi buổi đi
-                                uống nước nói chuyện em thấy tiếp thu được nhiều lắm. Chú có dạy khoá excel nâng cao sau
-                                em cũng sẽ học
-                                tiếp"
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Services Section -->
-
-        <!-- ======= Frequently Asked Questions Section ======= -->
-        <section id="faq" class="faq section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Các Câu Hỏi Thường Gặp</h2>
-                    <p>
-                        Dạo gần đây chúng mình nhận được khá nhiều câu hỏi về DFL nên chúng mình xin khái quát những
-                        thông tin cơ
-                        bản nhất về DFL thông qua các câu trả lời sau để mình có thể hiểu rõ hơn về dự án nhé.
-                    </p>
-                </div>
-
-                <div class="faq-list">
-                    <ul>
-                        <li data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-help-circle icon-help"></i>
-                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Địa điểm sinh
-                                hoạt chính của
-                                DFL là ở đâu đó ạ?
-                                <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                                <p>
-                                    Đối với các CLB offline, địa điểm sinh hoạt chính của chúng
-                                    mình ở hai cơ sở Thư viện Cộng Đồng D Free Book.
-                                    <br />
-                                    Cơ sở 1: 101 ngõ 128C Đại La, Hai Bà Trưng, Hà Nội.
-                                    <br />
-                                    Cơ sở 2: số 2 ngõ Viện Máy, Phạm Văn Đồng, Cầu Giấy, Hà Nội.
-                                    <br />
-                                    Ngoài ra chúng mình cũng hỗ trợ mở lớp ở các địa điểm khác
-                                    thuận tiện cho các leader khi đảm bảo được các tiêu chí về
-                                    lớp học từ dự án.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i>
-                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Group có nhiều
-                                hoạt động thực
-                                tế có ý nghĩa cộng đồng không
-                                ạ? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Ngoài các CLB được mở thường niên 1 năm hai khóa thì Page D
-                                    Free Learning và Group Lớp học dịu dàng vẫn tổ chức các cuộc
-                                    thi, chương trình, sự kiện cho cộng đồng nhằm lan tỏa tri
-                                    thức và sự tử tế. Có thể kể đến như: chương trình Kết nối
-                                    Yêu thương, cuộc thi "Phái đẹp tài năng", Talkshow "Đọc
-                                    nhiều để làm gì?",... cậu có thể follow Page và group để
-                                    tham gia nhé! ^^
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i>
-                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Các hoạt động
-                                hay sự kiện đều
-                                tham gia trên tinh thần tự
-                                nguyện đúng không ạ?
-                                <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Nếu được hợp tác cùng nhau thì chúng ta sẽ làm việc với nhau
-                                    trong bao lâu, thời gian cụ thể như thế nào ạ? Đến với một
-                                    dự án cộng đồng, đương nhiên tinh thần đầu tiên là tự
-                                    nguyện. Tuy nhiên trong thời gian hoạt động chắc chắn sẽ có
-                                    những hoạt động yêu cầu sự kỷ luật, tính trách nhiệm và hành
-                                    động của cậu. Nếu không lỡ mà một ngày ai cũng "không khỏe
-                                    lắm" để làm việc thì khó xử cho BQT quá cậu nhỉ? ^^ Thời
-                                    gian gắn bó với dự án tùy thuộc vào mong muốn và sự đóng góp
-                                    của thể của cậu nha. Cái này chúng tớ không thể đo lường hay
-                                    yêu cầu thời gian như khi thuê nhà hay ký hợp đồng công ty
-                                    được. 😁
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i>
-                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">DFL có phải là
-                                một dự án miễn
-                                phí?
-                                <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Trong những khóa đầu tiên, DFL hoàn toàn là một dự án miễn
-                                    phí. Tuy nhiên ở thời điểm hiện tại, với tất cả các CLB
-                                    chúng mình đều có thông báo trong link đăng ký rằng cậu sẽ
-                                    cần đóng 50k/CLB/khóa. Số tiền này sẽ được dùng vào hai mục
-                                    đích chính là đóng góp cho thư viện cộng đồng DFB và phát
-                                    triển các hoạt động tại DFL.
-                                    <br />
-                                    Ngoài ra để đảm bảo tinh thần trách nhiệm của các bạn học
-                                    viên, chúng mình sẽ thu thêm 200k/bạn/CLB, tuy nhiên số tiền
-                                    này sẽ được hoàn lại cho mình vào cuối khóa.
-                                    <br />
-                                    Vậy nên DFL hiện nay là một DỰ ÁN CỘNG ĐỒNG về học tập và
-                                    chia sẻ tri thức.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="500">
-                            <i class="bx bx-help-circle icon-help"></i>
-                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tại sao DFL
-                                không tổ chức các
-                                CLB một cách liên tục?
-                                <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Với mục tiêu đề cao sự tập trung và nhất quán, DFL thường tổ
-                                    chức đồng loạt các CLB theo khóa thay vì mở liên tục. Sau
-                                    mỗi khóa chúng mình đều dành thời gian để tổng kết với mong
-                                    muốn sẽ làm tốt hơn ở khóa tiếp theo.
-                                    <br />
-                                    Có thể nói hình thức này ở DFL như một trường học thu nhỏ.
-                                    <br />
-                                    Bởi chúng mình cũng cần có thời gian khai giảng sôi nổi,
-                                    thời gian học tập trầm tĩnh và thời gian nghỉ ngơi để chuẩn
-                                    bị cho một bắt đầu mới. Tuy nhiên, thỉnh thoảng DFL cũng mở
-                                    một số lớp học lẻ khi đủ duyên nên cậu đừng quên thường
-                                    xuyên theo dõi page để cập nhật nhé.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="600">
-                            <i class="bx bx-help-circle icon-help"></i>
-                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">Phải đợi bao lâu
-                                để tham gia
-                                một khóa tại DFL nếu đã bỏ lỡ
-                                khóa này? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Như đã chia sẻ, một khóa tại DFL kéo dài trung bình 3 tháng,
-                                    chúng mình cần thêm ít nhất 1 tháng để tổng kết khóa cũ và 1
-                                    tháng kết nối lead.sup chuẩn bị cho khóa mới. Vậy nên trung
-                                    bình 1 năm DFL chỉ tổ chức được khoảng 2 khóa và nếu bỏ lỡ
-                                    khóa này có thể cậu sẽ phải đợi 3-4 tháng để có thông tin và
-                                    tham gia vào khóa tiếp theo.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="700">
-                            <i class="bx bx-help-circle icon-help"></i>
-                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">Làm sao để trở
-                                thành thành
-                                viên tại DFL?
-                                <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Hiện nay thành viên tại DFL được chia làm hai đối tượng
-                                    <br />
-                                    a/ Leaders/supporters CLB:
-                                    <br />
-                                    Khi trở thành lead.sup tại DFL, yêu cầu cơ bản là cậu có kỹ
-                                    năng/kiến thức về một lĩnh vực nào đó và mong muốn chia sẻ
-                                    chúng với cộng đồng. Đừng lo lắng vì chúng mình luôn sát
-                                    cánh với cậu, chỉ cần cậu sẵn sàng sẻ chia.
-                                    <br />
-                                    Cậu có thể đăng ký trở thành lead.sup tại DFL vào đầu/cuối
-                                    mỗi khóa hoặc bất cứ khi nào, chỉ cần liên hệ với Page,
-                                    chúng mình sẽ sắp xếp và hỗ trợ cậu mở lớp sớm nhất có thể.
-                                    <br />
-                                    b/ Thành viên vận hành: Cậu có thể trở thành thành viên vận
-                                    hành tại DFL với các vai trò như truyền thông, nhân sự, sự
-                                    kiện hoặc thiết kế.
-                                    <br />
-                                    Tuy nhiên với yêu cầu gắn bó lâu dài hơn và hoạt động thường
-                                    xuyên nên ở DFL chúng mình thường xây dựng một team cứng.
-                                    Chỉ khi nào cần thêm thành viên chúng mình mới đăng tuyển.
-                                    <br />
-                                    Trừ khi cậu quá yêu mến DFL và có mong muốn cùng xây dựng dự
-                                    án này thì đừng ngần ngại bày tỏ cho chúng mình biết.
-                                    <br />
-                                    DFL luôn sẵn sàng chào đón cậu về cùng một nhà.
-                                </p>
-                            </div>
-                        </li>
+                        <li data-filter="*" class="filter-active">Tất cả</li>
+                        <li data-filter=".filter-app">Lớp học</li>
+                        <li data-filter=".filter-card">Talkshow</li>
+                        <li data-filter=".filter-web">Tình nguyện</li>
                     </ul>
-                </div>
-            </div>
-        </section>
-        <!-- End Frequently Asked Questions Section -->
 
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Liên Hệ</h2>
-                    <p>
-                        Cơ hội chỉ đến một lần, vậy nên đừng bỏ lỡ!
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12 d-flex align-items-stretch">
-                        <div class="info">
-                            <div class="address">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Địa chỉ:</h4>
-                                <p>Hà Nội, Việt Nam</p>
+                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-1.jpg" class="img-fluid" alt="" />
                             </div>
-
-                            <div class="email">
-                                <i class="bi bi-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>dfreelearning@gmail.com</p>
+                            <div class="portfolio-info">
+                                <h4>Bước chạy yêu thương</h4>
+                                <p>Tình nguyện</p>
+                                <a href="assets/img/portfolio/action-1.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Bước chạy yêu thương"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
+                        </div>
 
-                            <div class="phone">
-                                <i class="bi bi-phone"></i>
-                                <h4>Số điện thoại:</h4>
-                                <p>0971852712</p>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-9.jpg" class="img-fluid" alt="" />
                             </div>
+                            <div class="portfolio-info">
+                                <h4>Lớp học lập trình</h4>
+                                <p>Lớp học</p>
+                                <a href="assets/img/portfolio/action-9.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Lớp học lập trình"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
 
-                            <!-- <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74336.50311012595!2d105.8010004330939!3d21.00927798966187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1709019383611!5m2!1svi!2s"
-                frameborder="0" style="border: 0; width: 100%; height: 500px" allowfullscreen></iframe> -->
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d594835.0909610315!2d105.3230317770679!3d20.97335816147128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135008e13800a29%3A0x2987e416210b90d!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1710383648839!5m2!1svi!2s"
-                                frameborder="0" style="border: 0; width: 100%; height: 500px" allowfullscreen></iframe>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-2.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Kết nối yêu thương</h4>
+                                <p>Talkshow</p>
+                                <a href="assets/img/portfolio/action-2.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Kết nối yêu thương"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-3.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Bạn kể mình nghe</h4>
+                                <p>Talkshow</p>
+                                <a href="assets/img/portfolio/action-3.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Bạn kể mình nghe"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-6.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Đọc nhiều để làm gì?</h4>
+                                <p>Talkshow</p>
+                                <a href="assets/img/portfolio/action-6.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Đọc nhiều để làm gì?"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-4.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Lớp học khóa 7</h4>
+                                <p>Lớp học</p>
+                                <a href="assets/img/portfolio/action-4.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Lớp học khóa 7"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-5.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Tuyển học viên khóa 6</h4>
+                                <p>Lớp học</p>
+                                <a href="assets/img/portfolio/action-5.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Tuyển học viên khóa 6"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-8.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Lớp học Xín Mần</h4>
+                                <p>Tình nguyện</p>
+                                <a href="assets/img/portfolio/action-8.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Lớp học Xín Mần"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div class="portfolio-img">
+                                <img src="assets/img/portfolio/action-7.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Lớp học hội họa</h4>
+                                <p>Lớp học</p>
+                                <a href="assets/img/portfolio/action-7.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Lớp học hội họa"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <!-- End Portfolio Section -->
 
-                    <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div> -->
-                </div>
-            </div>
-        </section>
-        <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
+            <!-- ======= Team Section ======= -->
+            <section id="team" class="team section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Thành Viên</h2>
+                        <p>
+                            Để tổ chức những hoạt động đầy bổ ích và thú vị, không thể không nhắc đến “tứ trụ” của LHDD.
+                            Đó
+                            là 4 ban:
+                            Truyền thông, Sự kiện, Nhân sự và Đối Ngoại.
+                        </p>
+                    </div>
 
-    <!-- ======= Footer ======= -->
-    <Footer />
-    <!-- End Footer -->
+                    <div class="row">
+                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Hoàng Quý Bình</h4>
+                                    <span>Founder Dự Án</span>
+                                    <p>
+                                        "Thôi cố gắng nhé các bạn. Vượt qua hết những khó khăn đi lại, các bạn sẽ đến
+                                        được
+                                        thác Mây"
+                                    </p>
+                                    <div class="social">
+                                        <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+                                        <a href="https://www.facebook.com/hoangquy.binh" target="_blank"><i
+                                                class="ri-facebook-fill"></i></a>
+                                        <!-- <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Lương Thị Hồng</h4>
+                                    <span>Leader Dự Án</span>
+                                    <p>
+                                        "Sinh ra đẹp đẽ là trời cho nhưng sống cho đẹp đẽ là bản lĩnh của mỗi người"
+                                    </p>
+                                    <div class="social">
+                                        <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+                                        <a href="https://www.facebook.com/luonghongvtc" target="_blank"><i
+                                                class="ri-facebook-fill"></i></a>
+                                        <!-- <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Lê Phan Kỳ Thư</h4>
+                                    <span>Trưởng Ban Truyền Thông</span>
+                                    <p>
+                                    </p>
+                                    <div class="social">
+                                        <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+                                        <a href="https://www.facebook.com/nina.le.106" target="_blank"><i
+                                                class="ri-facebook-fill"></i></a>
+                                        <!-- <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Phạm Tuấn Hải</h4>
+                                    <span>Trưởng Ban Sự Kiện</span>
+                                    <p></p>
+                                    <div class="social">
+                                        <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+                                        <a href="https://www.facebook.com/profile.php?id=100088037397894"
+                                            target="_blank"><i class="ri-facebook-fill"></i></a>
+                                        <!-- <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="" />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Phạm Thị Ngoan</h4>
+                                    <span>Trưởng Ban Nhân Sự</span>
+                                    <p>
+                                        Miệng là của họ, đời là của mình đừng vì một câu nói của họ mà làm mình mất vui
+                                    </p>
+                                    <div class="social">
+                                        <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+                                        <a href="https://www.facebook.com/profile.php?id=100049287919473"
+                                            target="_blank"><i class="ri-facebook-fill"></i></a>
+                                        <!-- <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Phan Diễm Quỳnh</h4>
+                                    <span>Trưởng Ban Đối Ngoại</span>
+                                    <p>
+                                        Youngz girl see zi 🖤
+                                    </p>
+                                    <div class="social">
+                                        <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+                                        <a href="https://www.facebook.com/profile.php?id=100075951311369"
+                                            target="_blank"><i class="ri-facebook-fill"></i></a>
+                                        <!-- <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Team Section -->
+
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services ">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Feedback</h2>
+                        <p>
+                            Chúng mình đã đồng hành với nhau được một thời gian khá dài rồi.
+                            LHDD xin được chia sẻ một số lời gửi gắm yêu thương từ các học viên CLB. Đây đều là tình cảm
+                            của
+                            chúng mình
+                            dành cho nhau trong thời gian gắn bó vừa qua.
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6 d-flex align-items-stretch bg-fb" data-aos="zoom-in"
+                            data-aos-delay="100">
+                            <div class="icon-box bg-fb-1">
+                                <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4><a href="">Lorem Ipsum</a></h4> -->
+                                <p>
+                                    "Câu chuyện về lớp guitar thì mình đã chia sẻ trên group rồi. Mình muốn gửi lời cảm
+                                    ơn
+                                    đến DFL vì đã mở
+                                    những lớp học vô cùng thú vị như thế này. Mình quen được nhiều người, học thêm được
+                                    kĩ
+                                    năng rất hay,
+                                    thêm niềm vui, lớp học hoàn toàn miễn phí nhưng cực kỳ chất lượng. Mình hi vọng một
+                                    ngày
+                                    có thể trở
+                                    thành leader của 1 lớp để lan tỏa tri thức đến cộng đồng ❤️. Và nếu như một ngày
+                                    mình đủ
+                                    khả năng để trở
+                                    thành leader lớp guitar thì còn tuyệt vời hơn nữa hihi."
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 bg-fb" data-aos="zoom-in"
+                            data-aos-delay="200">
+                            <div class="icon-box bg-fb-3">
+                                <!-- <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="">Sed ut perspici</a></h4> -->
+                                <p>
+                                    "Cô giáo và các bạn trong lớp đều hòa đồng vui vẻ. Các giờ học không hề nhàm chán,
+                                    cô
+                                    giáo luôn thay đổi
+                                    giáo trình phù hợp với lớp. Mỗi bạn đều là một cây hài chưa được biết đến. Mình rất
+                                    vui
+                                    và biết ơn với
+                                    quãng thời gian đồng hành cùng lớp và cô giáo."
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 bg-fb" data-aos="zoom-in"
+                            data-aos-delay="300">
+                            <div class="icon-box bg-fb-2">
+                                <!-- <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4><a href="">Magni Dolores</a></h4> -->
+                                <p>
+                                    "Một quãng thời gian nhiều ý nghĩa, được trau dồi, nâng cao kĩ năng tiếng anh, được
+                                    nhận
+                                    sự giúp đỡ tận
+                                    tình từ Leader, Supporter cũng như các bạn học viên trong lớp. Chỉ biết nói cảm ơn
+                                    mọi
+                                    người cũng như
+                                    DFL đã xây dựng một môi trường vô cùng hữu ích."
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10 bg-fb" data-aos="zoom-in"
+                            data-aos-delay="400">
+                            <div class="icon-box bg-fb-4">
+                                <!-- <div class="icon"><i class="bx bx-layer"></i></div>
+                <h4><a href="">Nemo Enim</a></h4> -->
+                                <p>
+                                    "Khi vào lớp uku em là em út trong lớp nên được anh chị rấc là cưng chiều. Lớp uku
+                                    đem
+                                    lại cho em nhìu
+                                    niềm vui. Có những lúc e nản cũng lười khum muốn trả bài nhưng mà anh chị động viên
+                                    và
+                                    dạy em nhiều để
+                                    em được như bây giờ. Em cảm ơn anh chị rất nhiều."
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10 bg-fb" data-aos="zoom-in"
+                            data-aos-delay="500">
+                            <div class="icon-box bg-fb-5">
+                                <!-- <div class="icon"><i class="bx bx-layer"></i></div>
+                <h4><a href="">Nemo Enim</a></h4> -->
+                                <p>
+                                    "Về lớp Trung, hay cả lớp Excel, lúc đầu mình đều nghe nói là chị Mai dạy hơi nghiêm
+                                    với
+                                    nghe chừng hơi
+                                    khó, hoặc chú Kiên cũng thế, nhưng tham gia lớp xong thấy quá trời luôn ạ. Chị Mai
+                                    vui
+                                    vẻ lắm, đi học
+                                    lúc nào chị cũng bảo là chị thích đi dạy các em, nói chuyện với các em vui lại còn
+                                    thấy
+                                    trẻ ra, em thấy
+                                    chị cũng chia sẻ nhiều nữa, học rất thoải mái luôn ý."
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10 bg-fb" data-aos="zoom-in"
+                            data-aos-delay="600">
+                            <div class="icon-box bg-fb-6">
+                                <!-- <div class="icon"><i class="bx bx-layer"></i></div>
+                <h4><a href="">Nemo Enim</a></h4> -->
+                                <p>
+                                    "Chú Kiên cũng vậy, chú chẳng khó tính, hay nghiêm khắc quá :v chú dạy excel kiêm cả
+                                    kiến thức xã hội và
+                                    cuộc sống xung quanh, chú còn định hướng nghề nghiệp, nói chung là chú như từ điển
+                                    wiki
+                                    á, mỗi buổi đi
+                                    uống nước nói chuyện em thấy tiếp thu được nhiều lắm. Chú có dạy khoá excel nâng cao
+                                    sau
+                                    em cũng sẽ học
+                                    tiếp"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Services Section -->
+
+            <!-- ======= Frequently Asked Questions Section ======= -->
+            <section id="faq" class="faq section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Các Câu Hỏi Thường Gặp</h2>
+                        <p>
+                            Dạo gần đây chúng mình nhận được khá nhiều câu hỏi về DFL nên chúng mình xin khái quát những
+                            thông tin cơ
+                            bản nhất về DFL thông qua các câu trả lời sau để mình có thể hiểu rõ hơn về dự án nhé.
+                        </p>
+                    </div>
+
+                    <div class="faq-list">
+                        <ul>
+                            <li data-aos="fade-up" data-aos-delay="100">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Địa điểm sinh
+                                    hoạt chính của
+                                    DFL là ở đâu đó ạ?
+                                    <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                    <p>
+                                        Đối với các CLB offline, địa điểm sinh hoạt chính của chúng
+                                        mình ở hai cơ sở Thư viện Cộng Đồng D Free Book.
+                                        <br />
+                                        Cơ sở 1: 101 ngõ 128C Đại La, Hai Bà Trưng, Hà Nội.
+                                        <br />
+                                        Cơ sở 2: số 2 ngõ Viện Máy, Phạm Văn Đồng, Cầu Giấy, Hà Nội.
+                                        <br />
+                                        Ngoài ra chúng mình cũng hỗ trợ mở lớp ở các địa điểm khác
+                                        thuận tiện cho các leader khi đảm bảo được các tiêu chí về
+                                        lớp học từ dự án.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="200">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Group có
+                                    nhiều
+                                    hoạt động thực
+                                    tế có ý nghĩa cộng đồng không
+                                    ạ? <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Ngoài các CLB được mở thường niên 1 năm hai khóa thì Page D
+                                        Free Learning và Group Lớp học dịu dàng vẫn tổ chức các cuộc
+                                        thi, chương trình, sự kiện cho cộng đồng nhằm lan tỏa tri
+                                        thức và sự tử tế. Có thể kể đến như: chương trình Kết nối
+                                        Yêu thương, cuộc thi "Phái đẹp tài năng", Talkshow "Đọc
+                                        nhiều để làm gì?",... cậu có thể follow Page và group để
+                                        tham gia nhé! ^^
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="300">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Các hoạt
+                                    động
+                                    hay sự kiện đều
+                                    tham gia trên tinh thần tự
+                                    nguyện đúng không ạ?
+                                    <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Nếu được hợp tác cùng nhau thì chúng ta sẽ làm việc với nhau
+                                        trong bao lâu, thời gian cụ thể như thế nào ạ? Đến với một
+                                        dự án cộng đồng, đương nhiên tinh thần đầu tiên là tự
+                                        nguyện. Tuy nhiên trong thời gian hoạt động chắc chắn sẽ có
+                                        những hoạt động yêu cầu sự kỷ luật, tính trách nhiệm và hành
+                                        động của cậu. Nếu không lỡ mà một ngày ai cũng "không khỏe
+                                        lắm" để làm việc thì khó xử cho BQT quá cậu nhỉ? ^^ Thời
+                                        gian gắn bó với dự án tùy thuộc vào mong muốn và sự đóng góp
+                                        của thể của cậu nha. Cái này chúng tớ không thể đo lường hay
+                                        yêu cầu thời gian như khi thuê nhà hay ký hợp đồng công ty
+                                        được. 😁
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="400">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">DFL có phải
+                                    là
+                                    một dự án miễn
+                                    phí?
+                                    <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Trong những khóa đầu tiên, DFL hoàn toàn là một dự án miễn
+                                        phí. Tuy nhiên ở thời điểm hiện tại, với tất cả các CLB
+                                        chúng mình đều có thông báo trong link đăng ký rằng cậu sẽ
+                                        cần đóng 50k/CLB/khóa. Số tiền này sẽ được dùng vào hai mục
+                                        đích chính là đóng góp cho thư viện cộng đồng DFB và phát
+                                        triển các hoạt động tại DFL.
+                                        <br />
+                                        Ngoài ra để đảm bảo tinh thần trách nhiệm của các bạn học
+                                        viên, chúng mình sẽ thu thêm 200k/bạn/CLB, tuy nhiên số tiền
+                                        này sẽ được hoàn lại cho mình vào cuối khóa.
+                                        <br />
+                                        Vậy nên DFL hiện nay là một DỰ ÁN CỘNG ĐỒNG về học tập và
+                                        chia sẻ tri thức.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="500">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tại sao DFL
+                                    không tổ chức các
+                                    CLB một cách liên tục?
+                                    <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Với mục tiêu đề cao sự tập trung và nhất quán, DFL thường tổ
+                                        chức đồng loạt các CLB theo khóa thay vì mở liên tục. Sau
+                                        mỗi khóa chúng mình đều dành thời gian để tổng kết với mong
+                                        muốn sẽ làm tốt hơn ở khóa tiếp theo.
+                                        <br />
+                                        Có thể nói hình thức này ở DFL như một trường học thu nhỏ.
+                                        <br />
+                                        Bởi chúng mình cũng cần có thời gian khai giảng sôi nổi,
+                                        thời gian học tập trầm tĩnh và thời gian nghỉ ngơi để chuẩn
+                                        bị cho một bắt đầu mới. Tuy nhiên, thỉnh thoảng DFL cũng mở
+                                        một số lớp học lẻ khi đủ duyên nên cậu đừng quên thường
+                                        xuyên theo dõi page để cập nhật nhé.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="600">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">Phải đợi bao
+                                    lâu
+                                    để tham gia
+                                    một khóa tại DFL nếu đã bỏ lỡ
+                                    khóa này? <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Như đã chia sẻ, một khóa tại DFL kéo dài trung bình 3 tháng,
+                                        chúng mình cần thêm ít nhất 1 tháng để tổng kết khóa cũ và 1
+                                        tháng kết nối lead.sup chuẩn bị cho khóa mới. Vậy nên trung
+                                        bình 1 năm DFL chỉ tổ chức được khoảng 2 khóa và nếu bỏ lỡ
+                                        khóa này có thể cậu sẽ phải đợi 3-4 tháng để có thông tin và
+                                        tham gia vào khóa tiếp theo.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="700">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">Làm sao để
+                                    trở
+                                    thành thành
+                                    viên tại DFL?
+                                    <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Hiện nay thành viên tại DFL được chia làm hai đối tượng
+                                        <br />
+                                        a/ Leaders/supporters CLB:
+                                        <br />
+                                        Khi trở thành lead.sup tại DFL, yêu cầu cơ bản là cậu có kỹ
+                                        năng/kiến thức về một lĩnh vực nào đó và mong muốn chia sẻ
+                                        chúng với cộng đồng. Đừng lo lắng vì chúng mình luôn sát
+                                        cánh với cậu, chỉ cần cậu sẵn sàng sẻ chia.
+                                        <br />
+                                        Cậu có thể đăng ký trở thành lead.sup tại DFL vào đầu/cuối
+                                        mỗi khóa hoặc bất cứ khi nào, chỉ cần liên hệ với Page,
+                                        chúng mình sẽ sắp xếp và hỗ trợ cậu mở lớp sớm nhất có thể.
+                                        <br />
+                                        b/ Thành viên vận hành: Cậu có thể trở thành thành viên vận
+                                        hành tại DFL với các vai trò như truyền thông, nhân sự, sự
+                                        kiện hoặc thiết kế.
+                                        <br />
+                                        Tuy nhiên với yêu cầu gắn bó lâu dài hơn và hoạt động thường
+                                        xuyên nên ở DFL chúng mình thường xây dựng một team cứng.
+                                        Chỉ khi nào cần thêm thành viên chúng mình mới đăng tuyển.
+                                        <br />
+                                        Trừ khi cậu quá yêu mến DFL và có mong muốn cùng xây dựng dự
+                                        án này thì đừng ngần ngại bày tỏ cho chúng mình biết.
+                                        <br />
+                                        DFL luôn sẵn sàng chào đón cậu về cùng một nhà.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- End Frequently Asked Questions Section -->
+
+            <!-- ======= Contact Section ======= -->
+            <section id="contact" class="contact">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Liên Hệ</h2>
+                        <p>
+                            Cơ hội chỉ đến một lần, vậy nên đừng bỏ lỡ!
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-stretch">
+                            <div class="info">
+                                <div class="address">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h4>Địa chỉ:</h4>
+                                    <p>Hà Nội, Việt Nam</p>
+                                </div>
+
+                                <div class="email">
+                                    <i class="bi bi-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>dfreelearning@gmail.com</p>
+                                </div>
+
+                                <div class="phone">
+                                    <i class="bi bi-phone"></i>
+                                    <h4>Số điện thoại:</h4>
+                                    <p>0971852712</p>
+                                </div>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d594835.0909610315!2d105.3230317770679!3d20.97335816147128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135008e13800a29%3A0x2987e416210b90d!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1710383648839!5m2!1svi!2s"
+                                    frameborder="0" style="border: 0; width: 100%; height: 500px"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact Section -->
+        </main>
+        <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+        <Footer />
+        <!-- End Footer -->
     </div>
-
-    
 </template>
