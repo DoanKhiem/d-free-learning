@@ -1,5 +1,11 @@
 <script setup lang="ts">
-
+useHead({
+    title: 'D Free Learning - Lớp học dịu dàng',
+    meta: [
+        { name: 'description', content: 'D Free Learning' },
+        { name: 'keywords', content: 'dfreelearning, dfl, lhdd, dfree' },
+    ]
+})
 </script>
 
 <template>

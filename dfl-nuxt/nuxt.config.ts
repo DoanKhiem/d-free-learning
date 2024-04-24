@@ -13,10 +13,13 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      charset: 'utf-8',
       viewport: 'width=device-width,initial-scale=1',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'd free learning' },
+        { name: 'author', content: 'D Free Learning' },
+        { name: 'keywords', content: 'D Free Learning|Lớp học dịu dàng' },
+        { name: 'description', content: 'D Free Learning|Lớp học dịu dàng' },
       ],
       link: [
         { rel: 'icon', href: '/img/DFL_Logo02.png', sizes: 'any' },
