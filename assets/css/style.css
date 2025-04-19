@@ -1110,8 +1110,15 @@ section {
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 120px;
   border-radius: 50%;
+}
+
+.team .member .pic .img-fluid {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 50%; */
 }
 
 .team .member .pic img {
@@ -1123,6 +1130,7 @@ section {
 }
 
 .team .member .member-info {
+  width: calc(100% - 120px);
   padding-left: 30px;
 }
 
@@ -1302,6 +1310,15 @@ section {
   .pricing .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
+  }
+
+  .team .member .member-info {
+    width: calc(100% - 70px);
+    padding-left: 10px;
+  }
+
+  .team .member .pic {
+    width: 70px;
   }
 }
 
@@ -1606,6 +1623,8 @@ section {
   .breadcrumbs {
     margin-top: 68px;
   }
+
+
 }
 
 .breadcrumbs h2 {
